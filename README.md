@@ -55,7 +55,3 @@ UAS_pemrograman_web_122140010/
 - **NIM:** 122140010
 - **Mata Kuliah:** Pemrograman Web
 - **Dosen Pengampu:** [Nama Dosen]
-
----
-
-Jika kamu ingin, saya bisa bantu generate file `README.md` ini langsung dengan markdown yang siap kamu salin dan taruh ke GitHub. Mau saya buatkan sekarang?
