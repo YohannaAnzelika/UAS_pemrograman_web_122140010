@@ -1,57 +1,47 @@
 # 📚 UAS Pemrograman Web 122140010
 
-Repositori ini berisi proyek UAS mata kuliah Pemrograman Web, dengan implementasi **Frontend (React.js)** dan **Backend (Express.js)** secara terpisah.
+Website ini adalah tugas besar mata kuliah Pemrograman Web 2024/2025 menggunakan Python Pyramid (backend) dan React.js (frontend).
 
-## 🗂️ Struktur Direktori
+## 📌 Fitur
+- CRUD Produk
+- CRUD Kategori
+- Autentikasi dasar
+- Tampilan responsif (TailwindCSS)
+- API RESTful
 
-```
-UAS_pemrograman_web_122140010/
-│
-├── backend/                      # 🔧 Backend API (Node.js + Express)
-│   ├── controllers/              # 📦 Logika kontrol aplikasi
-│   │   └── bookController.js
-│   ├── models/                   # 📄 Model data (misalnya skema buku)
-│   │   └── bookModel.js
-│   ├── routes/                   # 🧭 Routing endpoint API
-│   │   └── bookRoutes.js
-│   ├── middleware/              # 🛡️ Middleware (opsional)
-│   │   └── logger.js
-│   ├── config/                   # ⚙️ Konfigurasi environment/db (opsional)
-│   │   └── db.js
-│   ├── .env                      # 🔐 Variabel lingkungan (jangan upload ke GitHub)
-│   ├── index.js                  # 🚀 Entry point server
-│   ├── package.json              # 📦 Dependency & metadata backend
-│   └── README.md                 # 📘 Dokumentasi backend (opsional)
-│
-├── frontend/                     # 🎨 Frontend React App
-│   ├── public/                   # 🌐 File statis publik
-│   │   └── index.html
-│   ├── src/                      # 🧠 Source code utama
-│   │   ├── components/           # 🧩 Komponen UI
-│   │   │   ├── BookList.js
-│   │   │   └── BookForm.js
-│   │   ├── pages/                # 📄 Halaman (routing React)
-│   │   │   └── Home.js
-│   │   ├── App.js                # 🧭 Komponen utama aplikasi
-│   │   ├── index.js              # 🚪 Entry point React DOM
-│   │   ├── App.css               # 🎨 Styling global
-│   ├── package.json              # 📦 Dependency & metadata frontend
-│   └── README.md                 # 📘 Dokumentasi frontend (opsional)
-│
-├── .gitignore                    # ❗ Daftar file yang diabaikan Git
-├── README.md                     # 📝 Dokumentasi utama proyek
-└── LICENSE                       # 📜 Lisensi proyek (opsional)
-```
+## 🚀 Instalasi
 
-## 🚀 Teknologi yang Digunakan
+### Backend (Python Pyramid)
+``bash
+cd backend
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+alembic upgrade head
+pserve development.ini
 
-- **Frontend:** React.js, HTML, CSS, JavaScript
-- **Backend:** Node.js, Express.js
-- **Tools:** Git, GitHub, VSCode, Postman (opsional)
+Frontend (React)
+cd frontend
+npm install
+npm run dev
 
-## 🧑‍🎓 Identitas Mahasiswa
+🔑 Dependensi Penting
+- Python Pyramid
+- PostgreSQL
+- SQLAlchemy
+- React + TailwindCSS
+- Axios
+- nReact Router
+- Context API
 
-- **Nama:** Yohanna Anzelika
-- **NIM:** 122140010
-- **Mata Kuliah:** Pemrograman Web
-- **Dosen Pengampu:** [Nama Dosen]
+📷 Screenshot
+(Tambahkan 2-3 gambar antarmuka)
+
+🔗 Link
+- Demo Video YouTube
+- Dokumentasi Mingguan
+
+📚 Referensi
+https://docs.pylonsproject.org
+https://reactjs.org
+https://tailwindcss.com
