@@ -1,0 +1,83 @@
+.detail-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.detail-card {
+  display: flex;
+  max-width: 900px;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.detail-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail-img {
+  max-width: 250px; /* ✅ Ukuran gambar lebih kecil */
+  border-radius: 10px;
+}
+
+.detail-info {
+  flex: 2;
+  padding-left: 20px;
+}
+
+.detail-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.detail-desc {
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.detail-price {
+  font-size: 20px;
+  color: #e44d26;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.button-group {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.back-button,
+.cart-button {
+  padding: 10px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.back-button {
+  background: #ccc;
+  color: black;
+}
+
+.cart-button {
+  background: #28a745;
+  color: white;
+}
+
+.back-button:hover {
+  background: #999;
+}
+
+.cart-button:hover {
+  background: #218838;
+}

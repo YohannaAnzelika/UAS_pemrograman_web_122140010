@@ -1,0 +1,29 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to right, #d16ba5, #ff8a00);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 40px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-item:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.1);
+}
